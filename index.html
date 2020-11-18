@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width = device-width", initial-scale="1">
+        <script type="text/javascript" src="/js/index.js"></script>
+        <title>Bong Groud</title>
+    </head>
+    <body id="body">
+        <div class="login-form">
+            <h1>SixShop Bong Ground</h1>
+            <form>
+                <div class="login-box">
+                    <input type="text">
+                    <label for="id">USER NAME</label>
+                </div>
+                <div class="login-box">
+                    <input type="password">
+                    <label for="password">PASSWORD</label>
+                </div>
+                <div>
+                    <button type="button" id="join">
+                        회원가입
+                    </button>
+                    <button type="button" >
+                        로그인
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div id="joinModal" class="hide">
+            <div class="join-modal-bg">
+            </div>
+            <div class="join-modal-wrap">
+                <h3 class="join-modal-title">회원 가입</h3>
+                <div class="join-modal-body">
+                    <div class="join-modal-form">
+                        <span class="join-modal-text">
+                            아이디
+                        </span>
+                        <input class="join-modal-input" type="text" id="joinId">
+                    </div>
+                    <div class="join-modal-form">
+                        <span class="join-modal-text">
+                            비밀번호
+                        </span>
+                        <input class="join-modal-input" type="password" id="joinPassword">
+                    </div>
+                </div>
+                <button type="button" id="join-completed">
+                    가입하기
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
