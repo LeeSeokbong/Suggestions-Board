@@ -13,84 +13,24 @@
       "email": "bong@sixshop.com"
     },
     {
+      "userName": "ㄴㅁㅇㄹ",
+      "password": "ㅁㄴㅇㄹ",
       "id": 3
     },
     {
+      "userName": "ㅁㄴㅇㄹ",
+      "password": "ㅁㄴㅇㄹ",
       "id": 4
     },
     {
+      "userName": "asdf",
+      "password": "asdf",
       "id": 5
     },
     {
+      "userName": "asdf",
+      "password": "asdf",
       "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "userName": "1",
-      "password": "",
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "userName": "1",
-      "password": "",
-      "id": 24
-    },
-    {
-      "userName": "1asdf",
-      "password": "sadf",
-      "id": 25
-    },
-    {
-      "userName": "1asdf",
-      "password": "sadf",
-      "id": 26
     }
   ]
 }
