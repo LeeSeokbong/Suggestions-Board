@@ -2,35 +2,29 @@
   "users": [
     {
       "id": 1,
-      "userName": "seok",
-      "password": "123123",
-      "email": "seok@sixshop.com"
+      "email": "seok",
+      "password": "123123"
     },
     {
       "id": 2,
-      "userName": "bong",
-      "password": "123123",
-      "email": "bong@sixshop.com"
+      "email": "bong",
+      "password": "qweqwe"
     },
     {
-      "userName": "ㄴㅁㅇㄹ",
-      "password": "ㅁㄴㅇㄹ",
+      "email": "123123@nadf.asdf",
+      "password": "$2a$10$67sk55AZGbvmtsfrvOU9jeiUZDCmUG2x01TIMe9w0NToliEs44j3W",
       "id": 3
     },
     {
-      "userName": "ㅁㄴㅇㄹ",
-      "password": "ㅁㄴㅇㄹ",
+      "email": "1@1.1",
+      "password": "$2a$10$vdeGOABrQaS9XXAaaiTVuuRKDSlz2n/FqzBLyo8sQzq9.eXWCO3gK",
       "id": 4
     },
     {
-      "userName": "asdf",
-      "password": "asdf",
+      "email": "11@11.11",
+      "password": "$2a$10$3luMk.AUiD.HJgbUu6IrTup8SfW6M9jyN1EDOLtZ6mmKuyjZqpU1q",
       "id": 5
-    },
-    {
-      "userName": "asdf",
-      "password": "asdf",
-      "id": 6
     }
-  ]
+  ],
+  "login": []
 }
