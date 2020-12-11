@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+#suggestionsPage {
+    width: 100%;
+    height: auto;
+    font-family: 'Noto Sans', sans-serif !important;
+    padding: 0 30px;
+}
+#suggestionsPage .navbar-form.navbar-left{
+    width: 100%;
+    padding-left: 0;
+}
+
+#suggestionsPage #suggestionsTableTitle{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#suggestionsPage #suggestionsTableTitle #suggestionsDate,
+#suggestionsPage #suggestionsTable .suggestions-createDate{
+    flex: 1;
+}
+
+#suggestionsPage #suggestionsTableTitle #suggestionsMemberNo,
+#suggestionsPage #suggestionsTable .suggestions-member-no{
+    flex: 1;
+}
+
+#suggestionsPage #suggestionsTableTitle #suggestionsPhoneNumber,
+#suggestionsPage #suggestionsTable .suggestions-phone-number{
+    flex: 1;
+}
+
+#suggestionsPage #suggestionsTableTitle #suggestionsEmail,
+#suggestionsPage #suggestionsTable .suggestions-email{
+    flex: 1;
+}
+
+#suggestionsPage #suggestionsTableTitle #suggestionsContent,
+#suggestionsPage #suggestionsTable .suggestions-memo{
+    flex: 2;
+}
+
+#suggestionsPage #suggestionsTableTitle #suggestionsBtns,
+#suggestionsPage #suggestionsTable .suggestions-btns{
+    flex: 1;
+}
+
+#suggestionsPage #suggestionsTable{
+    text-align: center;
+}
+
+#suggestionsPage #suggestionsTable .suggestions-row{
+    display: flex;
+    padding-top: 10px;
+}
+
+#suggestionsModal #suggestionsModalForm{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    opacity: 1;
+}
+
+#suggestionsModal #suggestionsBackGround {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+
+#suggestionsModalBtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    margin: 5px 40px 0 0;
+    font-weight: 600;
+}
+
+#suggestionsUpdateBtn {
+    border-radius: 7px;
+    margin-right: 5px;
+    background-color: greenyellow;
+    font-weight: 600;
+}
+
+#suggestionsDeleteBtn {
+    border-radius: 7px;
+    background-color: pink;
+    font-weight: 600;
+}

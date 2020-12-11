@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/css/suggestions.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width = device-width", initial-scale="1">
+    <script type="text/javascript" src="/js/home.js"></script>
+    <script type="text/javascript" src="/js/board.js"></script>
+    <title>Bong Groud</title>
+</head>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Home</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">목록 <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">통계</a></li>
+              <li><a href="#">관리자 설정</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <button id="suggestionsModalBtn" type="reset">등록하기</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+    <div id="suggestionsPage">
+        <h3>건의 목록</h3>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" id="searchInput" class="form-control" placeholder="Search">
+            </div>
+            <button type="button" class="btn btn-default" onclick=suggestionsSearch()>검색하기</button>
+            <button type="button" class="btn btn-default" onclick=reDarwSuggestions()>모두보기</button>
+          </form>
+        <div id="suggestionsTableTitle">
+          <span id="suggestionsDate">인입 날짜</span>
+          <span id="suggestionsMemberNo">멤버넘버</span>
+          <span id="suggestionsPhoneNumber">전화번호</span>
+          <span id="suggestionsEmail">이메일 주소</span>
+          <span id="suggestionsContent">건의 내용</span>
+          <span id="suggestionsBtns">버튼</span>
+        </div>
+        <div id="suggestionsTable"></div>
+    </div>
+    <div id="suggestionsModal" class="hide">
+        <div id="suggestionsBackGround"></div>
+        <form id="suggestionsModalForm">
+            <div>
+                <span>멤버넘버</span>
+                <input id="memberNo" type="text" value="">
+            </div>
+            <div>
+                <span>전화번호</span>
+                <input id="phoneNumber" type="text" value="">
+            </div>
+            <div>
+               <span>이메일</span>
+               <input id="email" type="text" value="">
+            </div>
+            <div>
+                <span>건의사항</span>
+                <input id="suggestionsMemo" type="text" value="">
+            </div>
+            <button type="reset" id="suggestionsAddModalBtn" class="hide">등록하기</button>
+            <button id="suggestionsUpdateModalBtn" class="hide">수정하기</button>
+        </form>
+    </div>
+</body>
+    
+    

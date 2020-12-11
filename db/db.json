@@ -24,7 +24,35 @@
       "email": "11@11.11",
       "password": "$2a$10$3luMk.AUiD.HJgbUu6IrTup8SfW6M9jyN1EDOLtZ6mmKuyjZqpU1q",
       "id": 5
+    },
+    {
+      "email": "111@111.111",
+      "password": "$2a$10$owG1ktwfge88BOcTHrbLa.kl5josSG0qdFOUMZGtP7d8XB8qr9m6y",
+      "id": 6
+    },
+    {
+      "email": "bong@1.1",
+      "password": "$2a$10$6GblK7yldph96ZJl/fRi/e.bRMo/AKbug7CuoqP/r1yFdyLEZ5.5u",
+      "id": 7
     }
   ],
-  "login": []
+  "login": [],
+  "suggestions": [
+    {
+      "createDate": "2020/12/11 22:6:57",
+      "memberNo": "29493",
+      "phoneNumber": "010-1111-2222",
+      "email": "aa@aa.aa",
+      "suggestionsMemo": "후기좀 잘 보이게 해주세요",
+      "id": 1
+    },
+    {
+      "createDate": "2020/12/11 22:17:33",
+      "memberNo": "49382",
+      "phoneNumber": "010-2222-2222",
+      "email": "bb@bb.bb",
+      "suggestionsMemo": "잘팔리게 해주세요",
+      "id": 2
+    }
+  ]
 }
