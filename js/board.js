@@ -241,7 +241,7 @@ function suggestionsDelete(suggestionsDeleteBtn) {
 //검색하는 곳
 function suggestionsSearch () {
     var searchInput = document.querySelector("#searchInput").value;
-    fetch("http://localhost:4000/suggestions?suggestionsMemo_like =" + searchInput)
+    fetch("http://localhost:4000/suggestions?suggestionsMemo_like=" + searchInput)
     .then(response => response.json())
         .then(function(response) {
         response.map(response => {
