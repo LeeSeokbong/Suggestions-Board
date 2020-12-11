@@ -51,8 +51,24 @@
       "memberNo": "49382",
       "phoneNumber": "010-2222-2222",
       "email": "bb@bb.bb",
-      "suggestionsMemo": "잘팔리게 해주세요",
+      "suggestionsMemo": "대한민국 만세!!",
       "id": 2
+    },
+    {
+      "createDate": "2020/12/11 22:43:47",
+      "memberNo": "74839",
+      "phoneNumber": "010-3333-3333",
+      "email": "bong@sixshop.com",
+      "suggestionsMemo": "상품 목록 섹션에 후기 갯수노출",
+      "id": 3
+    },
+    {
+      "createDate": "2020/12/11 22:44:47",
+      "memberNo": "123123",
+      "phoneNumber": "ㅁㄴㅇㄹㅁㄴㅇㄹ",
+      "email": "ㄴㅁㅇㄹㅁㄴㅇㄹ",
+      "suggestionsMemo": "ㄴㅁㅇㄹㅁㄴㅇㄹ",
+      "id": 4
     }
   ]
 }

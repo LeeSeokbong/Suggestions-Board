@@ -5,6 +5,7 @@ window.onload = function drawSuggestion(){
         .then(function(response) {
         response.map(response => {
             //이미 등록된 row 만들어주는 곳
+            console.log(response)
             var suggestionsRow = document.createElement("div");
             suggestionsRow.setAttribute("id", "suggestionsRow" + response.id);
             suggestionsRow.setAttribute("data-id", response.id);
@@ -240,8 +241,7 @@ function suggestionsDelete(suggestionsDeleteBtn) {
 //검색하는 곳
 function suggestionsSearch () {
     var searchInput = document.querySelector("#searchInput").value;
-    var searchInputValue = searchInput ? "?suggestionsMemo_like="+searchInput : ""
-    fetch("http://localhost:4000/suggestions" + searchInputValue)
+    fetch("http://localhost:4000/suggestions?suggestionsMemo_like =" + searchInput)
     .then(response => response.json())
         .then(function(response) {
         response.map(response => {
