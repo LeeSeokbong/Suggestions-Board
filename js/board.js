@@ -5,7 +5,6 @@ window.onload = function drawSuggestion(){
         .then(function(response) {
         response.map(response => {
             //이미 등록된 row 만들어주는 곳
-            console.log(response)
             var suggestionsRow = document.createElement("div");
             suggestionsRow.setAttribute("id", "suggestionsRow" + response.id);
             suggestionsRow.setAttribute("data-id", response.id);
@@ -112,6 +111,7 @@ window.onload = function drawSuggestion(){
             body : JSON.stringify(suggestionsData)
             }).then(response => response.json())
             .then(function(response) {
+                console.log(response)
                 //새로 등록된 row 만들어주는 곳
                 var suggestionsRow = document.createElement("div");
                 suggestionsRow.setAttribute("id", "suggestionsRow" + response.id);
@@ -218,7 +218,8 @@ function suggestionsUpdate(suggestionsUpdateBtn) {
             },
             body : JSON.stringify(suggestionsUpdata)
         })
-        window.location.reload()
+        suggestionsModal.classList.add("hide");
+        reDarwSuggestions();
     }
 }
 

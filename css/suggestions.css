@@ -27,7 +27,7 @@
 
 #suggestionsPage #suggestionsTableTitle #suggestionsMemberNo,
 #suggestionsPage #suggestionsTable .suggestions-member-no{
-    flex: 1;
+    flex: 0.5;
 }
 
 #suggestionsPage #suggestionsTableTitle #suggestionsPhoneNumber,
@@ -42,7 +42,7 @@
 
 #suggestionsPage #suggestionsTableTitle #suggestionsContent,
 #suggestionsPage #suggestionsTable .suggestions-memo{
-    flex: 2;
+    flex: 3;
 }
 
 #suggestionsPage #suggestionsTableTitle #suggestionsBtns,
@@ -69,7 +69,32 @@
     text-align: center;
     padding: 50px;
     background-color: white;
+    border: 10px solid grey;
     opacity: 1;
+}
+
+#suggestionsModal #suggestionsModalForm h1{
+    margin-bottom: 30px;
+}
+
+#suggestionsModal #suggestionsModalForm .suggestion-input{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#suggestionsModal #suggestionsModalForm .suggestion-input input{
+    border: 1px solid;
+}
+
+#suggestionsModal #suggestionsModalForm #suggestionsAddModalBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 #suggestionsModal #suggestionsBackGround {
